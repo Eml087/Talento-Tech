@@ -1,29 +1,48 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
 }
 
-.fondo{
-    background: #7DD8C1;
+body {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor {
     width: 400px;
     height: 300px;
+    background-color: #7DD8C1;
     display: flex;
-    align-items: flex-end;
-    display: inline;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hongo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pasto {
-    background: #3A6430;
-    width: 100vw;
     height: 50px;
-    justify-content: center;
-    align-items: end;
-    
-    
+    background-color: #3A6430;
+}
+
+.copa {
+    background-color: #A34F50;
+    width: 220px;
+    height: 110px;
+    border-radius: 160px 160px 0 0;
+    border: 0px;
 }
 
 .tronco {
-    background:  #FBFAE2;
-    width: 50px;
-    height: 50px;
-    
+    background-color: #FBFAE2;
+    width: 60px;
+    height: 90px;
 }
