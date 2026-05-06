@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+}
+
+.fondo{
+    background: #7DD8C1;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    display: inline;
+}
+
+.pasto {
+    background: #3A6430;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    align-items: end;
+    
+    
+}
+
+.tronco {
+    background:  #FBFAE2;
+    width: 50px;
+    height: 50px;
+    
+}

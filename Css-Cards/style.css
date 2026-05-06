@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    
+}
+/* contiene todo el contenido para poder centrar los elementos */
+.card {
+    width: 320px;
+    /* Margin auto para poder centrar la targeta */    
+    margin: auto;
+
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8)
+    
+
+
+}
