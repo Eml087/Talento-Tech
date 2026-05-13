@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     border: 2px solid saddlebrown;
     width: 100%;
@@ -13,6 +12,39 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.header-container {
+    width: 100%;
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.2em;
+}
+
+.header-menu {
+    border: 2px solid darkblue;    
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.list-menu {
+    width: 100%;
+    border: 2px solid seagreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu {
+    text-decoration: none;
+    list-style: none;
 }
 
 
