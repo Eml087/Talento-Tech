@@ -32,4 +32,40 @@ Si nota algo que debería cambiar o considera que estoy implementando algo de ma
 - Usar **Tecnologías Mono** para los textos de los apartados  
   *(Ejemplo: “HARDWARE SIN RESTRICCIONES”)*
 
+# Manual de Implementación Técnica (Resumen)
 
+## Tipografía de Títulos
+- Utilizar **Rajdhani Bold**
+- Aplicar:
+  - `text-transform: uppercase`
+  - `letter-spacing` leve para lograr una estética tecnológica
+
+## Tipografía de Datos
+- Implementar **Roboto Mono**
+- Utilizarla en:
+  - precios
+  - modelos
+  - terminales de datos
+  - información técnica
+
+## Geometría
+- No utilizar esquinas redondeadas
+- Implementar bordes biselados con cortes a 45°
+- Utilizar `clip-path` en CSS para:
+  - contenedores
+  - botones
+  - tarjetas
+
+## Efectos de Iluminación
+- Utilizar:
+  - `box-shadow`
+  - `text-shadow`
+- Aplicar el color:
+  - `#FCEE09`
+- Objetivo:
+  - generar efecto de brillo neón sobre fondos oscuros
+
+## Interactividad
+- Agregar transiciones rápidas
+- Implementar efectos tipo glitch al pasar el cursor sobre los productos
+- Reforzar una estética de software futurista y avanzado
