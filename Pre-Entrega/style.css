@@ -3,23 +3,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: auto;
 }
 
 body {
-    border: 2px solid saddlebrown;
-    width: 100%;
+    /* border: 2px solid saddlebrown; */
+    width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url(img/fondo1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .header-container {
     width: 100%;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: radial-gradient(#1d2229 , #121318);
+    height: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px 5px #000000;
 }
 
 .logo {
@@ -27,7 +38,7 @@ body {
 }
 
 .header-menu {
-    border: 2px solid darkblue;    
+    /* border: 2px solid darkblue;     */
     width: 60%;
     display: flex;
     justify-content: end;
@@ -35,7 +46,7 @@ body {
 
 .list-menu {
     width: 100%;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,6 +56,69 @@ body {
 .menu {
     text-decoration: none;
     list-style: none;
+}
+
+
+.hero-container {
+    background-image: url(img/brazo_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: #1A1A1D;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* border: 2px solid salmon; */
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 5px #000000;
+}
+
+.hero-info{
+    color: azure;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.main-products{
+    /* background: radial-gradient(#191f26, #15181c); */
+    /* box-shadow: 0 0 0 2px #474d52, 
+                        0 0 0 15px #262a2e,
+                        0 0 0 17px #474d52,
+                        inset 0 0 10px 0 #000000; */
+    background: #121318;
+    box-shadow: 0 0 15px 5px #000000;
+}
+
+.list-products{
+    padding: 10px;
+    width: 100%;
+    /* border: 2px solid firebrick; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-product {
+    /* border: 2px solid seashell; */
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 0 0 1px #FCEE09, 
+                        0 0 10px 0 #FCEE09,
+                        inset 0 0 10px 0 #000000;
+    /* background-color: #303033; */
+    background: radial-gradient(#1d2229 , #121318);
+    text-decoration: none;
+    list-style: none;
+    
+
 }
 
 
