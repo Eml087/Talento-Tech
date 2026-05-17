@@ -21,6 +21,15 @@ body {
     background-position: center;
 }
 
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+/************** HEADER **************/
+
+/***** NavBar *****/
+
 .header-container {
     width: 100%;
     /* border: 2px solid salmon; */
@@ -33,9 +42,13 @@ body {
     box-shadow: 0 0 15px 5px #000000;
 }
 
+/***** Logo *****/
+
 .logo {
     font-size: 1.2em;
 }
+
+/***** Menu *****/
 
 .header-menu {
     /* border: 2px solid darkblue;     */
@@ -58,33 +71,64 @@ body {
     list-style: none;
 }
 
+/************** MAIN **************/
+
+/***** Banner *****/
+
+.main-container {
+    border: 2px solid firebrick;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .hero-container {
+    /* Fondo */
     background-image: url(img/brazo_banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    background-color: #1A1A1D;
-    height: 650px;
+
+    /* Contenido */
+    height: 640px;
+    width: 600px;
+    border: 2px solid sandybrown;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    /* border: 2px solid salmon; */
-    margin-bottom: 30px;
-    overflow: hidden;
-    box-shadow: 0 0 15px 5px #000000;
+    
+    
+    
 }
 
+/***** Info Banner *****/
+
 .hero-info{
+    border: 2px solid cadetblue;
     color: azure;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    /* text-shadow: 0 0 30px rgba(0, 240, 255, 0.3); */
+    width: 400px;
+    /* text-align: end; */
+
 }
+/*
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.hero-info button {
+    border: 0px;
+    background-color: #FCEE09;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+
+} */
+
+/***** List Productos *****/
 
 .main-products{
     /* background: radial-gradient(#191f26, #15181c); */
@@ -118,8 +162,6 @@ body {
     background: radial-gradient(#1d2229 , #121318);
     text-decoration: none;
     list-style: none;
-    
-
 }
 
 

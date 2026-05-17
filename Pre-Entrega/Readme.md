@@ -21,14 +21,3 @@ Cuando necesito usar algo de CSS que vimos superficialmente, trato primero de en
 Claramente el proyecto todavía no está terminado y pienso seguir actualizándolo lo más posible.
 
 Si nota algo que debería cambiar o considera que estoy implementando algo de manera incorrecta, agradecería mucho que me lo haga saber.
-
----
-
-# Anotaciones
-
-- Usar la fuente **Rajdhani** para los títulos grandes en mayúsculas  
-  *(Ejemplo: “EL MERCADO NEGRO”)*
-
-- Usar **Tecnologías Mono** para los textos de los apartados  
-  *(Ejemplo: “HARDWARE SIN RESTRICCIONES”)*
-
