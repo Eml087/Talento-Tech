@@ -76,11 +76,12 @@ li {
 /***** Banner *****/
 
 .main-container {
+    width: 100%;
     border: 2px solid firebrick;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items: flex-end;
 }
 
 
@@ -93,11 +94,12 @@ li {
 
     /* Contenido */
     height: 640px;
-    width: 600px;
+    width: 100%;
     border: 2px solid sandybrown;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: flex-end;
     
     
 }
@@ -105,13 +107,14 @@ li {
 /***** Info Banner *****/
 
 .hero-info{
+    margin: 10px;
     border: 2px solid cadetblue;
     color: azure;
-    width: 400px;
+    width: 50%;
     /* text-align: end; */
 
 }
-/*
+
 .btn-content {
     display: flex;
     justify-content: center;
@@ -126,7 +129,7 @@ li {
     margin: auto;
     border-radius: 10px;
 
-} */
+}
 
 /***** List Productos *****/
 
@@ -149,17 +152,22 @@ li {
     justify-content: space-around;
     align-items: center;
 }
-
 .item-product {
     /* border: 2px solid seashell; */
-    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
-    margin: 10px;
+    height: 250px;
+    background: radial-gradient(#1d2229 , #121318);
     box-shadow: 0 0 0 1px #FCEE09, 
                         0 0 10px 0 #FCEE09,
+                        0 0 10px 0 #FCEE09,
+                        0 0 10px 0 #FCEE09,
+                        0 0 10px 0 #FCEE09,
                         inset 0 0 10px 0 #000000;
-    /* background-color: #303033; */
-    background: radial-gradient(#1d2229 , #121318);
+    margin: 20px;
+    border-radius: 20px;
     text-decoration: none;
     list-style: none;
 }
