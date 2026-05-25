@@ -58,7 +58,8 @@ li {
     background: radial-gradient(#1d2229 , #121318);
     height: 40px;
     margin-bottom: 20px;
-    box-shadow: 0 0 15px 5px #000000;
+    box-shadow: 0 0 15px 10px var(--color-gris-oscuro),
+                        inset 0 0 15px 10px var(--color-gris-oscuro);
     position: sticky;
     top: 0;
     left: 0;
@@ -98,18 +99,24 @@ li {
     list-style: none;
     font-weight: 500;
     text-shadow: 0 0 5px #e0e0e0;
-    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);    
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .menu a:hover {
-    text-shadow: 4px 4px 5px #00FFFF;
-    color: #00FFFF;
+    text-shadow: -1px -1px 2px #00FFFF,
+                        -2px -2px 2px #00FFFF,
+                        -3px -3px 2px #00FFFF,
+                        -4px -4px 2px #00FFFF,
+                        -5px -5px 2px #00FFFF;
+    
+    color: var(--color-blanco-frio);
     background-color: transparent;
     border-radius: 5px;
     padding: 5px 10px;
     border: 0px;
     box-shadow: 0 0 2px 2px var(--color-cian2),
-                        inset 0 0 2px 2px var(--color-cian2);
+                        inset 0 0 2px 2px var(--color-cian2),
+                        -3px -3px 2px 2px var(--color-cian2);
 }
 
 /************** MAIN **************/
@@ -138,13 +145,14 @@ li {
     /* Contenido */
     height: 640px;
     width: 100%;
-    /* border: 2px solid sandybrown; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 30px;
-    box-shadow: 0 0 15px 5px #000000;
+    /* border: 5px solid #111111; */
+    box-shadow: 0 0 15px 10px var(--color-gris-oscuro),
+                        inset 0 0 15px 10px var(--color-gris-oscuro);
     
 }
 
@@ -195,8 +203,11 @@ li {
 
 }
 .hero-info button:hover {
-    text-shadow: 4px 4px 5px #00FFFF;
-    color: #00FFFF;
+    text-shadow: 1px 1px 3px #00FFFF,
+                        -1px -1px 3px #00FFFF,
+                        1px -1px 3px #00FFFF,
+                        -1px 1px 3px #00FFFF;
+    color: var(--color-blanco-frio);
     background-color: transparent;
     border-radius: 5px;
     padding: 10px;
@@ -210,13 +221,9 @@ li {
 /***** List Productos *****/
 
 .main-products{
-    /* background: radial-gradient(#191f26, #15181c); */
-    /* box-shadow: 0 0 0 2px #474d52, 
-                        0 0 0 15px #262a2e,
-                        0 0 0 17px #474d52,
-                        inset 0 0 10px 0 #000000; */
     background: #121318;
-    box-shadow: 0 0 15px 5px #000000;
+    box-shadow: 0 0 15px 10px var(--color-gris-oscuro),
+                        inset 0 0 15px 10px var(--color-gris-oscuro);
 }
 
 .list-products{
@@ -241,10 +248,27 @@ li {
     background: linear-gradient(135deg, #222327 ,#202326);
     box-shadow: 
                         0 0 2px 2px #FCEE09,
-                        0 0 2px 2px #FCEE09,
+                        5px 5px 2px 2px #FCEE09,
                         inset 0 0 2px 2px var(--color-amarillo);
     margin: 20px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     
+}
+
+.item-product:hover {
+    box-shadow: 
+                        0 0 4px 4px #FCEE09,
+                        10px 10px 2px 2px #FCEE09,
+                        inset 0 0 4px 4px var(--color-amarillo);
+    transform: translate(-5px, -5px) ;
+}
+
+.item-product:hover .decription-item {
+    text-shadow: 1px 1px 3px var(--color-rosa),
+                        -1px -1px 3px var(--color-rosa),
+                        1px -1px 3px var(--color-rosa),
+                        -1px 1px 3px var(--color-rosa);
+    color: var(--color-blanco-frio);
 }
 
 .content-item {
@@ -293,7 +317,9 @@ li {
     color: #ffffff;
     font-weight: 500;
     text-shadow: 0 0 5px #e0e0e0;
+    transition: all 5s 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 
 .content-btn {
     margin: 5px;
@@ -321,16 +347,19 @@ li {
     font-size: 0.8em;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 
 .btn-shop-item:hover {
-    text-shadow: 0px 0px 5px #00FFFF;
-    color: #00FFFF;
+    text-shadow: 1px 1px 3px #00FFFF,
+                        -1px -1px 3px #00FFFF,
+                        1px -1px 3px #00FFFF,
+                        -1px 1px 3px #00FFFF;
+    color: var(--color-blanco-frio);
     background-color: transparent;
     border-radius: 5px;
-    padding: 15px 50px;
+    padding: 20px;
     border: 0px;
     box-shadow: 0 0 2px 2px var(--color-cian2),
                         inset 0 0 2px 2px var(--color-cian2);
